@@ -1,0 +1,10 @@
+body {
+    padding: $site-padding;
+    margin: 0;
+    background-color: #eeeab1;
+    box-sizing: border-box;
+
+    * {
+        box-sizing: border-box;
+    }
+}

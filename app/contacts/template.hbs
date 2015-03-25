@@ -1,0 +1,10 @@
+<div>
+    <h4>Contacts</h4>
+     <h4>{{#link-to 'application'}}Back{{/link-to}}</h4>
+</div>
+<ul>
+    {{#each contact in model}}
+        <li>{{contact-box model=contact}}</li>
+    {{/each}}
+</ul>
+{{outlet}}
